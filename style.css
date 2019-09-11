@@ -1,0 +1,177 @@
+@import "button.css";
+
+/*flexbox*/
+.row { display: flex; 
+	flex-wrap: wrap;
+	justify-content: center
+}
+
+.toto {
+	width: 300px;
+	margin: 5px;
+
+}
+
+.card {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*Colors and font*/
+
+body {
+
+	background-color: #57606f;
+	color: #2f3640;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	
+	font-weight: 900;
+	font-size: 80px;
+	margin: 0;
+	
+
+}
+
+h2 {
+
+	color: #FFFF;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+p {
+
+	font-size: 20px;
+	color: #3C7AD2;
+}
+
+ul {
+
+	color: #dfe6e9;
+	text-decoration: none;
+
+}
+
+i {
+
+	color: #dfe6e9;
+
+}
+
+i:hover {
+
+	color: #3498db;
+}
+
+
+/*div*/
+
+.one {
+
+	background-image: url(http://getwallpapers.com/wallpaper/full/e/9/a/594116.jpg);
+	height: 100vh;
+	box-shadow: 0px 10px;
+	width: 100vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+#nom {
+
+	color: #FFFF;
+	width: fit-content;
+	padding: 8px;
+	margin-bottom: 80px;
+	border: 5px solid white;
+	border-color: #FFFF;
+
+}
+#htwo {
+
+	color: #3C7AD2;
+}
+#hfour {
+
+	color: #3C7AD2;
+}
+.two {
+
+	background-color: #FFFF;
+	padding: 2rem;
+	box-shadow: 0px 10px;
+	text-align: center;
+
+
+}
+#twwo {
+
+	color: #3C7AD2;
+}
+
+.three {
+
+	background-color: #FFFF;
+	padding: 50px;
+	box-shadow: 0px 10px;
+	text-align: center;
+}
+
+#button {
+
+	background: white;  
+	text-decoration: none;
+	color: #3C7AD2;
+	margin-top: 50px;                      
+	padding: 30px;                       
+	border-radius: 4px;                       
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+}
+.four {
+
+	background-color: #FFFF;
+	padding: 50px;
+	text-align: center;
+}
+#trois {
+
+	color: #3C7AD2;
+}
+.list {
+
+	list-style-type: none;
+	text-align: center;
+	margin-right: 40px;
+}
+.list li {
+
+	display: inline;	
+	padding: 10px;
+}
+.list i {
+
+	font-size: 40px;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+
